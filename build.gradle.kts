@@ -27,8 +27,8 @@ val fabricLoaderVersion = property("deps.fabric_loader") as String
 val fabricLanguageKotlinVersion = property("deps.fabric_language_kotlin") as String
 
 group = property("mod.group") as String
-version = "$modVersion+$mcVersion"
-base.archivesName = modId
+version = "${stonecutter.current.project}-$modVersion"
+base.archivesName = (property("mod.name") as String).replace(' ', '-')
 
 repositories {
     fun strictMaven(url: String, alias: String, vararg groups: String) = exclusiveContent {
