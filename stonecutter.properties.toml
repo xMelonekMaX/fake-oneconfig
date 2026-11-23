@@ -1,0 +1,39 @@
+mod.name = "Fake OneConfig"
+mod.id = "oneconfigv1"
+mod.version = "1.7.1"
+mod.group = "org.oneconfig"
+
+deps.fabric_loader = "0.19.5"
+deps.fabric_language_kotlin = "1.13.13+kotlin.2.4.10"
+deps.kotlin = "2.4.10"
+
+loomx.loom_version = "1.19-SNAPSHOT"
+
+
+["1.21.1"]
+deps.fabric_api = "0.116.15+1.21.1"
+
+["1.21.4"]
+deps.fabric_api = "0.119.4+1.21.4"
+
+["1.21.5"]
+deps.fabric_api = "0.128.2+1.21.5"
+
+["1.21.8"]
+deps.fabric_api = "0.136.1+1.21.8"
+
+["1.21.10"]
+deps.fabric_api = "0.138.4+1.21.10"
+
+["1.21.11"]
+deps.fabric_api = "0.141.6+1.21.11"
+
+["26.1"]
+deps.fabric_api = "0.155.2+26.1.2"
+
+["26.2"]
+deps.fabric_api = "0.157.0+26.2"
+
+["26.3"]
+deps.fabric_api = "0.160.3+26.3"
+deps.fabric_loader = "0.20.1"
